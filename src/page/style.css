@@ -1,0 +1,17 @@
+@import '~antd/dist/antd.css';
+.description{
+    overflow: hidden;
+}
+.descriptionDiv{
+    width:300px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* background:pink; */
+}
+.descriptionDiv:hover{
+        white-space: normal;
+        text-overflow: initial;
+        overflow: auto;
+        background-color: #f6f7fb;
+}
